@@ -4478,7 +4478,7 @@ buffer without affecting the default value for a particular mode."
 (folding-add-to-marks-list 'plain-TeX-mode         "%{{{"   "%}}}" nil t)
 (folding-add-to-marks-list 'plain-tex-mode         "%{{{"   "%}}}" nil t)
 (folding-add-to-marks-list 'prolog-mode            "% {{{"   "% }}}" nil t)
-(folding-add-to-marks-list 'python-mode            "# {{{"  "# }}}" nil t)
+(folding-add-to-marks-list 'python-mode            "# region"  "# endregion" nil t)
 (folding-add-to-marks-list 'rexx-mode              "/* {{{" "/* }}} */" " */" t)
 (folding-add-to-marks-list 'sh-mode                "# {{{"  "# }}}" nil t)
 (folding-add-to-marks-list 'sh-script-mode         "# {{{"  "# }}}" nil t)
